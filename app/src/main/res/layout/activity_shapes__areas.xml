@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.scoutbuddy.trail4.myatm.Shapes_Areas">
+
+    <EditText
+        android:id="@+id/length"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Length or side "
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/breadth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/length"
+        android:layout_below="@+id/length"
+        android:ems="10"
+        android:hint="Breadth or height"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:id="@+id/radioChoice"
+        android:layout_below="@+id/breadth"
+        android:layout_alignStart="@+id/breadth">
+
+        <RadioButton
+            android:id="@+id/radioSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Square" />
+
+        <RadioButton
+            android:id="@+id/radioRectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Rectangle" />
+
+        <RadioButton
+            android:id="@+id/radioTriangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/breadth"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Triangle" />
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/Temporary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Area"
+        android:layout_below="@+id/radioChoice"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/TextViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Temporary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+</RelativeLayout>

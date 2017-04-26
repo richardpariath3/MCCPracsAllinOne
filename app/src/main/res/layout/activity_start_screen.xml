@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.scoutbuddy.trail4.myatm.StartScreen">
+
+    <Button
+        android:id="@+id/Simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Calculator"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Factorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Factorial"
+        android:layout_below="@+id/Simple"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/MainActivitybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ATM Simulator"
+        android:layout_below="@+id/Factorial"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/ordernumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ascending and Descending order"
+        android:layout_below="@+id/MainActivitybtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Prime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prime or Not"
+        android:layout_below="@+id/ordernumbers"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Pal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Palindrome and Do reverse"
+        android:layout_below="@+id/Prime"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonShape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pal"
+        android:layout_centerHorizontal="true"
+        android:text="Area of Shapes" />
+
+    <Button
+        android:id="@+id/buttonEMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonShape"
+        android:layout_centerHorizontal="true"
+        android:text="Calculate Simple/Compound and EMI" />
+
+    <Button
+        android:id="@+id/Vowels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonEMI"
+        android:layout_centerHorizontal="true"
+        android:text="Count Vowels and Consonants" />
+
+    <Button
+        android:id="@+id/toaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Vowels"
+        android:layout_centerHorizontal="true"
+        android:text="As if you don't know what is a toast" />
+</RelativeLayout>

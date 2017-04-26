@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/entertext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.scoutbuddy.trail4.myatm.VowelConsonants">
+
+    <EditText
+        android:id="@+id/entertexthere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Enter your text"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entertexthere"
+        android:layout_centerHorizontal="true"
+        android:text="Let's Break it Down" />
+
+    <TextView
+        android:id="@+id/t99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Number of Vowels" />
+
+    <TextView
+        android:id="@+id/vowelstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t99"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:id="@+id/t88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Digits"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/t99" />
+
+    <TextView
+        android:id="@+id/numberstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t88"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/t77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Number of Blanks"
+        android:layout_below="@+id/numberstext"
+        android:layout_alignStart="@+id/t99" />
+
+    <TextView
+        android:id="@+id/spacetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t77"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/t66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Number of Consonants"
+        android:layout_below="@+id/spacetext"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/consonantstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t66"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+</RelativeLayout>

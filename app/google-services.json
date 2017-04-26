@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007014046720",
+    "firebase_url": "https://myatm-9500e.firebaseio.com",
+    "project_id": "myatm-9500e",
+    "storage_bucket": "myatm-9500e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007014046720:android:1c6f0d555df654a5",
+        "android_client_info": {
+          "package_name": "com.scoutbuddy.trail4.myatm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007014046720-2cqbae7559qvb43tk10p98lh93mn6sek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scoutbuddy.trail4.myatm",
+            "certificate_hash": "a35c65ade3c50fcea9142a11a8fdf608ea2d8e33"
+          }
+        },
+        {
+          "client_id": "1007014046720-igkb03tr09rua3ue67lpd6mf21drprgp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjFT-2qmIwAoU5IbD_A4W1_ZYyUxOClsg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007014046720-igkb03tr09rua3ue67lpd6mf21drprgp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
